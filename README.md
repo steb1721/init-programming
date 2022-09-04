@@ -1,47 +1,24 @@
-# kali linux basic commands
-## 1, who am i
-### The whoami command allows Linux users to see the currently logged-in user. The output displays the username of the effective user in the current shell. Additionally, whoami is useful in bash scripting to show who is running the script.
-## whoami Command Syntax
-### The syntax for the whoami command is:
-
-### whoami [option]
-
-### whoami Command Options
-### The whoami command comes with the two following options:
-
-### Option	Description
-### --help	Shows a help message and exits.
-### --version	Shows the version information and exits.
-# ![image](https://user-images.githubusercontent.com/112609955/188066889-87712d28-6ada-480e-9080-ea8e483337b2.png)
-## 2, uptime
-### Uptime is a command that returns information about how long your system has been running together with the current time, number of users with running sessions, and the system load averages for the past 1, 5, and 15 minutes. It can also filter the information displayed at once depending on your specified options.
-## uptime command syntax
-### ![image](https://user-images.githubusercontent.com/112609955/188067741-66abf0c2-25cb-4f76-9230-7b5e84f0d318.png)
-### In order of appearance, the command displays the current time as the 1st entry, up means that the system is running and it is displayed next to the total time for which the system has been running, the user count (number of logged on users), and lastly, the system load averages.
-## 2, sort
-### The sort command is used in Linux to print the output of a file in given order. This command processes on your data (the content of the file or output of any command) and reorders it in the specified way, which helps us to read the data efficiently.
-## Syntax
-### sort [OPTION]... [FILE]...
-
-### sort [OPTION]... --files0-from=F
-## 3, basename
-### basename is a command-line utility that strips directory and trailing suffix from given file names.
-## basename command syntax
-### The basename command supports two syntax formats:
-### basename NAME [SUFFIX]
-### basename OPTION... NAME...
-###![image](https://user-images.githubusercontent.com/112609955/188069474-6ec5ed2a-94b4-4679-9581-1415befeabb5.png)
-## 4, iwconfig
-### command in Linux is like ifconfig command, in the sense it works with kernel-resident network interface but it is dedicated to wireless networking interfaces only. ### It is used to set the parameters of the network interface that are particular to the wireless operation like SSID, frequency etc. iwconfig may also be used to
-### display the parameters, and the wireless statistics which are extracted from /proc/net/wireless.
-### ![image](https://user-images.githubusercontent.com/112609955/188069958-301cd095-116a-48a6-b499-15be269c1e0f.png)
-## 5,mkdir
-### The mkdir command in Linux/Unix allows users to create or make new directories. mkdir stands for “make directory.”
-
-With mkdir, you can also set permissions, create multiple directories (folders) at once, and much more.
-## mkdir Command Syntax in Linux
-### mkdir [option] dir_name
-### ![image](https://user-images.githubusercontent.com/112609955/188071569-90792e01-8cf2-4af7-b2dd-f9ff56a44031.png)
-
-
+# packet sniffing and spoofing
+## #sniffing attack is data thefts perpetrated by capturing network traffic with packet sniffers, which can illegally access and read unencrypted data.
+# classification of packet sniffing
+## 1, active packet sniffing 
+### It is the technique of inserting address resolution protocols (ARPs) into a network to overload the switch content address memory (CAM)
+### table. As a result, legitimate traffic is redirected to other ports, allowing the attacker to sniff traffic from the switch. Active sniffing methodologies are used 
+### for spoofing attacks, dynamic host configuration protocol (DHCP) attacks, and domain name system (DNS) poisonings.
+## 2, passive packet sniffing
+### It consists solely of listening and is typically used in networks connected by hubs. The traffic is visible to all hosts in this form of network. To discreetly
+### monitor a company’s network, hackers will often employ one of two approaches to passive sniffing
+## ![image](https://user-images.githubusercontent.com/112609955/188295730-d93ab73a-ac67-42a9-927d-ed7faa9dd526.png)
+## Packet Sniffing Attack Examples
+### 1. BIOPASS RAT and Cobalt Strike
+### 2. Packet-sniffing as a technique for hacking Wi-Fi networks
+### 3. Password sniffing cyberattack...
+## ![image](https://user-images.githubusercontent.com/112609955/188295821-be04758e-d9aa-4d2b-a22e-dfbaeccd452e.png)
+## #Spoofing is a cyberattack that occurs when a scammer is disguised as a trusted source to gain access to important data or information. Spoofing can happen through websites, emails, phone calls, texts, IP addresses and servers. 
+## types of spoofing attack
+### ![image](https://user-images.githubusercontent.com/112609955/188296331-dba16da7-066b-4d81-a8e7-8281c5782d0d.png)
+## how to know you are being spoofed
+### ![image](https://user-images.githubusercontent.com/112609955/188296353-1e1024fa-d9c7-41d6-b99a-b396cfd3b5a6.png)
+## how to protect against spoofing attacks
+### ![image](https://user-images.githubusercontent.com/112609955/188296385-eadf40be-d1ac-40b3-9f2a-8c4d5e41bc5b.png)
 
